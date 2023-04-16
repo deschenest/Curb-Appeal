@@ -87,7 +87,9 @@ p {
 #portfolio {
   padding: 100px 20px;
   text-align: center;
+
 }
+
 
 .gallery ul {
   list-style-type: none;
@@ -128,6 +130,8 @@ p {
   padding: 100px 20px;
   text-align: center;
   background-color: white;
+
+  min-width: 400px;
 }
 
 .container-con {

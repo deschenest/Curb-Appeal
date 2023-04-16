@@ -67,6 +67,8 @@ p {
   margin-bottom: 40px;
 }
 
+
+
 .btn {
   display: inline-block;
   padding: 12px 24px;
@@ -99,6 +101,11 @@ p {
 .gallery ul li img {
   max-width: 100%;
   height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery ul li img:hover {
+  transform: scale(1.1);
 }
 
 /* About section styles */

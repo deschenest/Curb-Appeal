@@ -211,3 +211,68 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   background-color: #666;
 }
+
+/* Media queries for mobile devices */
+@media screen and (max-width: 768px) {
+  /* Header styles */
+  h1 {
+    font-size: 24px;
+  }
+
+  nav ul li a {
+    padding: 5px;
+  }
+
+  /* Hero section styles */
+  .hero {
+    padding: 60px 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  /* Portfolio section styles */
+  #portfolio {
+    padding: 60px 20px;
+  }
+
+  /* About section styles */
+  #about {
+    padding: 40px 20px;
+  }
+
+  /* Contact section styles */
+  #contact {
+    padding: 60px 20px;
+  }
+
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  form textarea {
+    height: 80px;
+  }
+
+  form input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}

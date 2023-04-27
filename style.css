@@ -13,30 +13,72 @@ body {
 
 /* Header styles */
 header {
-  background-color: #333;
+  background-color: white;
   color: #fff;
-  padding: 20px;
+/*  padding: 20px;*/
   text-align: center;
+/*  display: flex;*/
+  justify-content: center;
+  align-items: center;
 /*  margin-top: 50px;*/
+/*padding-bottom: 560px;*/
 }
 
 h1 {
   font-size: 32px;
   text-decoration: none;
+  justify-content: center;
+  margin-bottom: -50px;
+}
+
+#line-break {
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.links {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style-type: none;
+  text-align: center;
+  color: black;
+  margin: 0 auto;
 }
 
 nav ul li {
   display: inline;
+  text-align: center;
 }
 
 nav ul li a {
-  color: #fff;
+  color: black;
   text-decoration: none;
   padding: 10px;
+  text-align: center;
 }
 .no-link-style {
   color: #fff;
@@ -46,8 +88,8 @@ nav ul li a {
 .video-wrapper {
   width: 100%;
 /*  max-width: 2000px;*/
-  height: auto;
-  margin: 0 auto;
+/*  height: auto;*/
+  margin-top: -170px;
 }
 
 /* Hero section styles */
@@ -78,6 +120,11 @@ p {
   font-size: 18px;
   border-radius: 3px;
 }
+
+/*.headLogo {
+  width: 550px;
+  height: 200px;
+}*/
 
 .btn:hover {
   background-color: #666;
@@ -144,6 +191,7 @@ p {
 
 .service-list {
   list-style-type: none;
+  min-width: 400px;
 }
 
 form label {
@@ -182,10 +230,11 @@ form input[type="submit"]:hover {
 
 /* Footer styles */
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: white;
+  color: black;
   text-align: center;
-  padding: 20px;
+  padding: auto;
+  margin-bottom: 0px;
 }
 
 /* Contact section styles */
@@ -225,7 +274,7 @@ form textarea {
 form input[type="submit"] {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #333;
+  background-color: #90aab3;
   color: #fff;
   text-decoration: none;
   font-size: 18px;
@@ -233,7 +282,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-  background-color: #666;
+  background-color: #c1afa1;
 }
 
 
@@ -280,6 +329,12 @@ form input[type="submit"]:hover {
   /* Header styles */
   h1 {
     font-size: 24px;
+  }
+
+  .container {
+    margin-left: 5px;
+    margin-right: 5px;
+    min-width: 10px;
   }
 
   /* Hero section styles */

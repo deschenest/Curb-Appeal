@@ -2,6 +2,10 @@
 body, figure, h1, h2, p {
   margin: 0;
   padding: 0;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+
 }
 
 /* Set font and background colors */
@@ -9,6 +13,7 @@ body {
   font-family: Arial, sans-serif;
   color: #333;
   background-color: #f9f9f9;
+  margin: 0;
 }
 
 /* Header styles */
@@ -25,14 +30,18 @@ header {
 }
 
 h1 {
+  display: flex;
   font-size: 32px;
   text-decoration: none;
   justify-content: center;
   margin-bottom: -50px;
+  align-items: center;
+  align-content: center;
 }
 
 #line-break {
   text-align: center;
+  padding-bottom: 100px;
 }
 
 .image-container {
@@ -45,6 +54,7 @@ h1 {
   display: flex;
   justify-content: center;
   text-align: center;
+  margin: auto;
 }
 
 .links {
@@ -58,7 +68,8 @@ h1 {
 nav {
   display: flex;
   justify-content: center;
-  margin: 0 auto;
+  margin: auto;
+  text-align: center;
 }
 
 nav ul {
@@ -72,11 +83,13 @@ nav ul {
 }
 
 nav ul li {
-  display: inline;
+  display: flex;
   text-align: center;
+  justify-content: center;
 }
 
 nav ul li a {
+  display: flex;
   color: black;
   text-decoration: none;
   padding: 10px;
@@ -139,6 +152,12 @@ p {
 
 }
 
+.gallery {
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
 
 .gallery ul {
   list-style-type: none;
@@ -179,8 +198,9 @@ p {
   padding: 100px 20px;
   text-align: center;
   background-color: white;
-
+  max-width: 1200px;
   min-width: 400px;
+  margin: 0 auto;
 }
 
 .container-con {
@@ -314,6 +334,13 @@ form input[type="submit"]:hover {
   left: 0;
 }
 
+    #line {
+        border-top: 10px solid;
+        margin: 50px;
+        color: #9da1ac;
+        text-align: center;
+        align-items: center;
+    }
 
 
 
@@ -380,6 +407,30 @@ form input[type="submit"]:hover {
   /* Footer styles */
   footer {
     padding: 20px;
+  }
+
+    /* Additional styles for mobile */
+  #line-break {
+    text-align: center;
+    padding-bottom: 100px;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+    /* Line break image styles */
+  #line-break {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+  }
+  .rows {
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 20px;
   }
 }
 

@@ -117,6 +117,9 @@ nav ul li a {
 h2 {
   font-size: 36px;
   margin-bottom: 20px;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
 }
 
 p {
@@ -149,7 +152,7 @@ p {
 #portfolio {
   padding: 100px 20px;
   text-align: center;
-
+  margin: 0 auto;
 }
 
 .gallery {
@@ -157,10 +160,14 @@ p {
   text-align: center;
   align-content: center;
   justify-content: center;
+  margin: 0 auto;
+  padding: 0 auto;
 }
 
 .gallery ul {
   list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .gallery ul li {
